@@ -1,0 +1,10 @@
+{
+  "domain": "fire_tv",
+  "name": "Fire TV",
+  "version": "1.0.0",
+  "documentation": "https://github.com/bhartiNitish-1707/Fire-Tv",
+  "requirements": [],
+  "dependencies": [],
+  "codeowners": ["@bhartiNitish-1707"],
+  "iot_class": "local_polling"
+}

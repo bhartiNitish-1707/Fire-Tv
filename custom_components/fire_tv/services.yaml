@@ -1,0 +1,7 @@
+send_command:
+  name: Send Fire TV command
+  description: Send a command to the Fire TV integration.
+  fields:
+    command:
+      description: Command string to send to Fire TV.
+      example: "play"
