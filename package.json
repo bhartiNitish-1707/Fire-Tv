@@ -1,0 +1,64 @@
+{
+	"name": "universal-remote-card",
+	"version": "4.10.8",
+	"description": "Universal Remote Card",
+	"main": "./dist/universal-remote-card.min.js",
+	"type": "module",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "npx rspack && gzip -fk dist/universal-remote-card.min.js",
+		"prelint": "tsc --noemit",
+		"lint": "eslint --fix --config ./eslint.config.js",
+		"build-css": "tcm src",
+		"setup": "git config --add core.hooksPath githooks && chmod +x githooks/pre-commit && npm i"
+	},
+	"lint-staged": {
+		"*": "prettier -w"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Nerwyn/universal-remote-card.git"
+	},
+	"keywords": [
+		"androidtv",
+		"android",
+		"googletv",
+		"google",
+		"tvcard",
+		"remote",
+		"tv",
+		"television"
+	],
+	"author": "Nerwyn",
+	"license": "Apache-2.0",
+	"bugs": {
+		"url": "https://github.com/Nerwyn/universal-remote-card/issues"
+	},
+	"homepage": "https://github.com/Nerwyn/universal-remote-card#readme",
+	"dependencies": {
+		"ha-nunjucks": "latest",
+		"js-yaml": "latest",
+		"lit": "latest",
+		"process": "latest"
+	},
+	"devDependencies": {
+		"@eslint/js": "latest",
+		"@rspack/cli": "latest",
+		"@rspack/core": "latest",
+		"@types/js-yaml": "latest",
+		"@typescript-eslint/eslint-plugin": "latest",
+		"@typescript-eslint/parser": "latest",
+		"eslint": "latest",
+		"eslint-config-prettier": "latest",
+		"eslint-plugin-prettier": "latest",
+		"home-assistant-js-websocket": "latest",
+		"lint-staged": "latest",
+		"lit-css-loader": "latest",
+		"minify-html-literals-loader": "latest",
+		"prettier": "latest",
+		"prettier-plugin-organize-imports": "latest",
+		"ts-loader": "latest",
+		"typescript": "latest",
+		"typescript-eslint": "latest"
+	}
+}
