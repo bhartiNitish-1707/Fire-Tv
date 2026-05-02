@@ -875,6 +875,7 @@ customElements.define(
 	'android-tv-card',
 	class AndroidTVCard extends UniversalRemoteCard {},
 ); // Keep old name to not break old configs
+3
 
 window.customCards = window.customCards || [];
 window.customCards.push({
