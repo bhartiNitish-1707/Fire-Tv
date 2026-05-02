@@ -1,13 +1,5 @@
-# Universal Remote Card
-
-A super customizable universal remote card for Home Assistant Lovelace.
-
-## Features
-
-- Supports Android TV, Fire TV, Apple TV, Roku, LG webOS, Samsung TV, Kodi, and more
-- Highly customizable button layout via YAML rows
-- Touch/swipe pad, sliders, circle pad elements
-- Hold, double-tap, momentary actions
+# Firemote
+Super customizable universal remote card and integration for Home Assistant.
 - Haptic feedback
 - Full HA service call support
 - Built-in keyboard dialogs per platform
