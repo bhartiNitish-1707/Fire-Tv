@@ -1,9 +1,8 @@
 {
-    "name": "Universal Remote Card",
-    "content_in_root": false,
-    "homeassistant": "2024.6.0",
-    "filename": "universal-remote-card.min.js",
-    "render_readme": true,
-    "hide_default_branch": true,
-    "category": "plugin"
+  "name": "Firemote",
+  "content_in_root": true,
+  "homeassistant": "2024.6.0",
+  "render_readme": true,
+  "hide_default_branch": true,
+  "category": "integration"
 }
